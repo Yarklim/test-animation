@@ -1,0 +1,40 @@
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    align-items: center;
+
+    @media screen and (max-width: 767px) {
+        display: none;
+    }
+    
+    @media screen and (min-width: 1280px) {
+
+    }
+
+}
+
+.nav__item {
+    list-style: none;
+    margin-left: 40px;
+}
+
+.nav__link {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.25;
+    color: var(--white-txt-bg-cl);
+
+    :last-child {
+        margin-right: 0;
+    }
+
+}
+

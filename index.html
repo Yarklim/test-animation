@@ -40,7 +40,8 @@
 	
 				<button class="menu-btn js-open-menu" type="button"
 				   aria-expanded="false"
-				   aria-controls="mobile-menu">
+				   aria-controls="mobile-menu"
+				   data-aos-offset="0">
 				   <svg class="menu-btn-icon" width="24" height="14">
 					  <use href="./images/icon.svg#icon-Burger"></use>
 				   </svg>
@@ -51,53 +52,57 @@
 	</header>
 
 	<!-- hero -->
-<section class="hero">
-    <div class="container hero-container">
-        <img class="hero__img-second" 
-		data-aos="zoom-in"
-		data-aos-duration="700"
-        srcset=
-        "./images/hero/hero/dark-tel328.png 328w,
-        ./images/hero/hero/dark-tel422.png 422w,
-        ./images/hero/hero/dark-tel459.png 459w,
-        ./images/hero/hero/dark-tel656.png 656w,
-        ./images/hero/hero/dark-tel844.png 844w,
-        ./images/hero/hero/dark-tel918.png 918w"
+	<section class="hero">
+		<div class="container hero-container">
+			<img class="hero__img-second" 
+			data-aos="zoom-in"
+			data-aos-duration="700"
+			data-aos-once="true"
+			srcset=
+			"./images/hero/hero/dark-tel328.png 328w,
+			./images/hero/hero/dark-tel422.png 422w,
+			./images/hero/hero/dark-tel459.png 459w,
+			./images/hero/hero/dark-tel656.png 656w,
+			./images/hero/hero/dark-tel844.png 844w,
+			./images/hero/hero/dark-tel918.png 918w"
 
-        sizes="(min-width: 1280px) 459px, (min-width: 768px) 328px, (min-width: 480px) 422px, 100vw"
-        src="./images/hero/img-1sm.png" alt="телефон" width="422">
-        <img class="hero__img"
-		data-aos="zoom-in"
-		data-aos-duration="700"
-        srcset=
-        "./images/hero/hero/1-tel308.png 308w,
-        ./images/hero/hero/1-tel394.png 395w,
-        ./images/hero/hero/1-tel430.png 430w,
-        ./images/hero/hero/1-tel614.png 614w,
-        ./images/hero/hero/1-tel788.png 788w,
-        ./images/hero/hero/1-tel860.png 860w"
+			sizes="(min-width: 1280px) 459px, (min-width: 768px) 328px, (min-width: 480px) 422px, 100vw"
+			src="./images/hero/img-1sm.png" alt="телефон" width="422">
+			<img class="hero__img"
+			data-aos="zoom-in"
+			data-aos-duration="700"
+			data-aos-once="true"
+			srcset=
+			"./images/hero/hero/1-tel308.png 308w,
+			./images/hero/hero/1-tel394.png 395w,
+			./images/hero/hero/1-tel430.png 430w,
+			./images/hero/hero/1-tel614.png 614w,
+			./images/hero/hero/1-tel788.png 788w,
+			./images/hero/hero/1-tel860.png 860w"
 
-        sizes="(min-width: 1280px) 430px, (min-width: 768px) 307px, (min-width: 480px) 395px, 100vw"
-        src="./images/hero/img-2sm.png" alt="" width="395">
-        <div class="hero-block" 
-		data-aos="fade-right"
-		data-aos-duration="700">
-            <h1 class="hero__main-title">Introducing Mobileapp</h1>
-            <h2 class="hero__title">Maecenas vitae tellus sapien. Prasent</h2>
-            <ul class="hero__list">
-                <li class="hero__item">semper scelerisque tristique a enim</li>
-                <li class="hero__item">Integer ut mattis nulla, eget vehicula elit</li>
-                <li class="hero__item">Prasent rutrum ac nunc et</li>
-            </ul>
-        </div>
-        <button class="hero__button" type="button" data-modal-open 
-		data-aos="flip-left"
-		data-aos-duration="700">
-            <span class="hero__button-text">DOWNLOAD</span>
-        </button>
-    </div>
-</section>
-<div class="block container"></div>
+			sizes="(min-width: 1280px) 430px, (min-width: 768px) 307px, (min-width: 480px) 395px, 100vw"
+			src="./images/hero/img-2sm.png" alt="" width="395">
+			<div class="hero-block" 
+			data-aos="fade-right"
+			data-aos-duration="700"
+			data-aos-once="true">
+				<h1 class="hero__main-title">Introducing Mobileapp</h1>
+				<h2 class="hero__title">Maecenas vitae tellus sapien. Prasent</h2>
+				<ul class="hero__list">
+					<li class="hero__item">semper scelerisque tristique a enim</li>
+					<li class="hero__item">Integer ut mattis nulla, eget vehicula elit</li>
+					<li class="hero__item">Prasent rutrum ac nunc et</li>
+				</ul>
+			</div>
+			<button class="hero__button" type="button" data-modal-open 
+			data-aos="flip-left"
+			data-aos-duration="700"
+			data-aos-once="true">
+				<span class="hero__button-text">DOWNLOAD</span>
+			</button>
+		</div>
+	</section>
+	<div class="block container"></div>
 	
 	<!-- Mobile Menu -->
 	<div class="menu-container js-menu-container" id="mobile-menu">
@@ -122,7 +127,8 @@
 		<div class="container features__container">
 			<div class="features__desc" 
 			data-aos="fade-down"
-			data-aos-duration="700">
+			data-aos-duration="700"
+			data-aos-once="true">
 				<h2 class="features__title">KEY FEATURES</h2>
 				<p class="features__text">Nunc vulputate nibh sed congue facilisis. Curabitur posuere scelerisque neque. In sit amet lectus non lacus sollicitudin cursus a vitae felis. Praesent luctus mi quis nisi interdum eleifend.</p>
 			</div>
@@ -203,7 +209,8 @@
 
 				<ul class="features__list" 
 				data-aos="fade-down"
-				data-aos-duration="700">
+				data-aos-duration="700"
+				data-aos-once="true">
 					<li class="features__item">
 						<h3 class="features__item--title">Amet varius</h3>
 						<p class="features__item--text">Donec posuere augue venenatis, aliquet ligula ut, tempus quam. Vivamus diam a iaculis malesuada</p>
@@ -216,7 +223,8 @@
 
 				<ul class="features__list list-animate" 
 				data-aos="fade-down"
-				data-aos-duration="1000">
+				data-aos-duration="1000"
+				data-aos-once="true">
 					<li class="features__item">
 						<h3 class="features__item--title">Amet varius</h3>
 						<p class="features__item--text">Donec posuere augue venenatis, aliquet ligula ut, tempus quam. Vivamus diam a iaculis malesuada</p>
@@ -229,7 +237,8 @@
 			</div>
 			<ul class="features__list--bottom" 
 			data-aos="fade-down"
-			data-aos-duration="700">
+			data-aos-duration="700"
+			data-aos-once="true">
 				<li class="features__item">
 					<h3 class="features__item--title">Amet varius</h3>
 					<p class="features__item--text">Donec posuere augue venenatis, aliquet ligula ut, tempus quam. Vivamus diam a iaculis malesuada</p>
@@ -249,7 +258,8 @@
 		<div class="container video__wrapper">
 			<article class="video__desc" 
 			data-aos="fade-down"
-			data-aos-duration="700">
+			data-aos-duration="700"
+			data-aos-once="true">
 				<h2 class="video__title">WATCH THE VIDEO</h2>
 			<p class="video__text" media="(min-width: 768px)">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla
 				fringilla nisl congue congue. Maecenas nec condimentum libero, at elementum mauris. Phasellus eget nisi dapibus, ultricies nisl at, hendrerit risusuis ornare luctus id sollicitudin ante lobortis at.</p>
@@ -257,7 +267,8 @@
 			<ul class="video__icons">
 				<li class="video__icons--item" 
 				data-aos="zoom-in"
-				data-aos-duration="1000">
+				data-aos-duration="1000"
+				data-aos-once="true">
 					<a class="app-link" href="#" aria-label="link to Apple Store">
 						<svg class="app-icon" width="60" height="60">
 							<use href="./images/icon.svg#apple"></use>
@@ -266,7 +277,8 @@
 				</li>
 				<li class="video__icons--item" 
 				data-aos="zoom-in"
-				data-aos-duration="1500">
+				data-aos-duration="1500"
+				data-aos-once="true">
 					<a class="app-link" href="#" aria-label="link to Android App">
 						<svg class="app-icon" width="60" height="60">
 							<use href="./images/icon.svg#icon-android"></use>
@@ -278,7 +290,8 @@
 
 			<div class="video__tube" 
 			data-aos="flip-down"
-			data-aos-duration="700">
+			data-aos-duration="700"
+			data-aos-once="true">
 				<picture class="video__img">
 					<!-- Desktop screen -->
 					<source
@@ -356,17 +369,19 @@
 		<div class="container">
 			<h2 class="team__title" 
 			data-aos="fade-down"
-			data-aos-duration="700">OUR TEAM</h2>
+			data-aos-duration="700"
+			data-aos-once="true">OUR TEAM</h2>
 			<p class="team__subtitle"
 			data-aos="fade-down"
-			data-aos-duration="700">Nunc vulputate nibh sed congue facilisis. Curabitur posuere scelerisque neque. In sit
-				amet
+			data-aos-duration="700"
+			data-aos-once="true">Nunc vulputate nibh sed congue facilisis. Curabitur posuere scelerisque neque. In sit amet
 				lectus non lacus sollicitudin cursus a vitae felis. Praesent luctus mi quis nisi interdum eleifend.
 			</p>
 			<ul class="team__list">
 				<li class="team__item"
 					data-aos="flip-left"
-					data-aos-duration="700">
+					data-aos-duration="700"
+					data-aos-once="true">
 					<a class="team__link">
 						<picture>
 							<!-- desktop screen -->
@@ -404,7 +419,8 @@
 				</li>
 				<li class="team__item"
 					data-aos="flip-left"
-					data-aos-duration="900">
+					data-aos-duration="900"
+					data-aos-once="true">
 					<a class="team__link">
 						<picture>
 							<!-- desktop screen -->
@@ -442,7 +458,8 @@
 				</li>
 				<li class="team__item"
 					data-aos="flip-left"
-					data-aos-duration="1100">
+					data-aos-duration="1100"
+					data-aos-once="true">
 					<a class="team__link">
 						<picture>
 							<!-- desktop screen -->
@@ -480,7 +497,8 @@
 				</li>
 				<li class="team__item"
 					data-aos="flip-left"
-					data-aos-duration="1300">
+					data-aos-duration="1300"
+					data-aos-once="true">
 					<a class="team__link">
 						<picture>
 							<!-- desktop screen -->
@@ -525,7 +543,8 @@
 		<div class="container">
 			<h2 class="testimonials__title"
 			data-aos="fade-down"
-			data-aos-duration="700">WHAT OUR COSTUMER’S SAY</h2>
+			data-aos-duration="700"
+			data-aos-once="true">WHAT OUR COSTUMER’S SAY</h2>
 			<div class="swiper">
 				<div class="swiper-wrapper">
 					<div class="testimonials__card swiper-slide">
@@ -665,12 +684,14 @@
 		<div class="container">
 			<h2 class="contact__title"
 			data-aos="fade-down"
-			data-aos-duration="700">CONTACT US</h2>
+			data-aos-duration="700"
+			data-aos-once="true">CONTACT US</h2>
 			<div class="contact__tumb">
 				<!--start block "contact-us"-->
 				<form class="contact-us"
 					data-aos="zoom-in-up"
-					data-aos-duration="700"> 
+					data-aos-duration="700"
+					data-aos-once="true"> 
 					<input class="contact-us__input" type="text" 
 													 name="input-name"
 													 placeholder="Name" 
@@ -696,7 +717,8 @@
 				<!--end block "contact-us"-->
 				<div class="contact__block"
 					data-aos="zoom-in-up"
-					data-aos-duration="700">
+					data-aos-duration="700"
+					data-aos-once="true">
 					<strong class="contact__subtitle">Get in touch with us</strong>
 					<p class="contact__desc">Nunc urna est, tristique et varius at, pharetra nec enim. Quisque rhoncus lacus fringilla nulla sollicitudin tristique.</p>
 					<!--start block "socials-block"-->
